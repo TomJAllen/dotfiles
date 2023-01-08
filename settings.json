@@ -37,7 +37,7 @@
         "**/.git": true,
         "**/.DS_Store": true,
         "node_modules": true,
-        "tmp": true,
+        "tmp": false,
         "log": true,
         ".asset-cache": true,
         ".bundle": true,
@@ -75,5 +75,7 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open"
 }

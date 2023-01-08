@@ -52,3 +52,8 @@
 [user]
 	email = tomallen_1@hotmail.co.uk
 	name = Tom Allen
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
